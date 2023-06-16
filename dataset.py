@@ -27,7 +27,7 @@ class TuneDataSet(Dataset):  # 继承Dataset
         x = torch.cat([x1,x2,x3], dim=0)
         return x, label
 
-
+# sort function
 
 if __name__ == '__main__':
     root_dir = "/home/kali/ML/Jaundice-model/datasets/conflict/no_confict_small/"
